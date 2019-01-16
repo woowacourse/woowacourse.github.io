@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+@font-face { font-family: 'hanna'; src: url(/fonts/BMHANNAProOTF.otf) format('truetype'); }
+
+.main-title, p.sub-title {
+    font-family: hanna;
+}
+
+h1, h2, h3, h4 {
+    font-family: hanna !important;
+}
+
+.logo {
+    width: 150px;
+    height: 65px;
+    background: no-repeat;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {width: 45px; height: 30px; margin-top: 17px; margin-bottom: 17px;}
+    .logo-dark {background-image: url("/images/logo/logo_small_dark.png") !important; }
+    .logo-white { background-image: url("/images/logo/logo_small_white.png") !important; }
+}
+
+.about-cover .cover-img {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-cover .cover-img .cover-content {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid;
+}
+
+.bullet.success {
+    border-color: #37c936;
+}
+
+.markdown strong {
+    border: 2px solid #fff5c6;
+    border-width: 2px 0;
+    background: #fff5c6;
+    font-weight: 400;
+    letter-spacing: -0.182px;
+}

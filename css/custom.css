@@ -201,6 +201,7 @@ blockquote:before { content: '' !important; }
 .height-50px {height: 50px !important;}
 
 .height-70vh {height: 70vh;}
+.height-100vh {height: 100vh !important;}
 .height-100vh-65px {height: calc(100vh - 65px);}
 .height-100vh-160px {height: calc(100vh - 160px);}
 
@@ -292,6 +293,18 @@ blockquote:before { content: '' !important; }
 .border-left-4 {border-left: 4px solid;}
 .border-left-5 {border-left: 5px solid;}
 
+.border-bottom-1 {border-bottom: 1px solid;}
+.border-bottom-2 {border-bottom: 2px solid;}
+.border-bottom-3 {border-bottom: 3px solid;}
+.border-bottom-4 {border-bottom: 4px solid;}
+.border-bottom-5 {border-bottom: 5px solid;}
+
+.border-top-1 {border-top: 1px solid;}
+.border-top-2 {border-top: 2px solid;}
+.border-top-3 {border-top: 3px solid;}
+.border-top-4 {border-top: 4px solid;}
+.border-top-5 {border-top: 5px solid;}
+
 .border-radius-btm-round {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
@@ -311,6 +324,8 @@ blockquote:before { content: '' !important; }
 .tag-gray{background-color:gray;color:#fff}
 
 .visibility-hidden {visibility: hidden !important;}
+
+.list-style-none {list-style: none;}
 
 .pace {
     -webkit-pointer-events: none;
