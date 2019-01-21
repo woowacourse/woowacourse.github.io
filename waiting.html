@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/customize.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/waiting.css">
 </head>
 <body>
 <div>
@@ -54,12 +55,31 @@
             </ul>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div>
-                <iframe src="https://goo.gl/forms/5zSVW3TqmzXRdUks2?embedded=true" width="640" height="850" frameborder="0" marginheight="0" marginwidth="0">로드 중...</iframe>
-            </div>
+    <div class="about-cover card no-border">
+        <div class="cover-img overlay-dark bg" style="background-image: url('/images/pages/apply/signpost.jpg')"></div>
+    </div>
+
+    <div class="container-fluid mrg-top-70">
+        <div class="google-form-container">
+            <iframe id="waiting-apply-from" src="https://docs.google.com/forms/d/e/1FAIpQLSeR0IkSiSxD5X_HBGVE_3yDCMf9pMGJCKOgGr-eAIHsh429XA/viewform?embedded=true" height="769px" width="100%" onLoad="window.scroll(0,0);">로드 중...</iframe>
         </div>
     </div>
+</div>
+
+<footer class="content-footer">
+    <div class="footer">
+        <div class="copyright">
+            <img class="d-block" src="/images/logo/logo_full_dark.png">
+            <span class="pdd-left-5">Copyright © <b class="text-dark">우아한코스</b>. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+<script src="//unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/waiting.js"></script>
 </body>
 </html>
