@@ -164,6 +164,8 @@ blockquote:before { content: '' !important; }
 
 .mrg-0 {margin: 0px !important;}
 .mrg-top-0 {margin-bottom: 0px !important;}
+.mrg-top-minus-15px {margin-top: -10px;}
+.mrg-top-minus-15px {margin-top: -15px;}
 .mrg-top-minus-20px {margin-top: -20px;}
 .mrg-top-minus-30px {margin-top: -30px;}
 
