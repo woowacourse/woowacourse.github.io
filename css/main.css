@@ -21,6 +21,26 @@ h1, h2, h3, h4 {
     .logo-white { background-image: url("/images/logo/logo_small_white.png") !important; }
 }
 
+@media only screen and (min-width: 480px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+
+    .desktop-menu-btn {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   .mobile-menu-btn {
+       display: block;
+   }
+
+    .desktop-menu-btn {
+        display: none;
+    }
+}
+
 .about-cover .cover-img {
     min-height: 300px;
     background-repeat: no-repeat;
