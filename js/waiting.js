@@ -1,14 +1,13 @@
 $(document).ready(function() {
     $(function(){
         "use strict";
-        $('#waiting-apply-from').on('load', function() {
-            var height = $('#waiting-apply-from').height()
-            if(window.innerWidth <= 480) {
-                $('.google-form-container').height(`${height*3.3}px`)
-            } else {
-                $('.google-form-container').height(`${height}px`)
-            }
-
-        })
+        var height = $('#waiting-apply-from').height()
+        if(window.innerWidth <= 480) {
+            console.log(height)
+            $('.google-form-container').height('725px')
+            $('#waiting-apply-from').height('725px')
+        } else {
+            $('.google-form-container').height(`${height}px`)
+        }
     });
 });
