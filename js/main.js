@@ -1,6 +1,7 @@
-$(document).ready(function() {
-    $(function(){
-        "use strict";
+(function ($) {
+    'use strict';
+
+    function initLogo() {
         $(window).scroll(function() {
             var nav = $(".navbar")
             if (nav.offset().top > 10)  {
@@ -19,5 +20,24 @@ $(document).ready(function() {
                 $(".logo-dark").addClass('d-none');
             }
         });
-    });
-});
+    }
+
+    function initTooltip() {
+        tippy('#kakao-btn', {
+            arrow: true,
+            animation: 'shift-toward',
+            placement: 'left',
+            distance: 10,
+            content: document.querySelector('#kakao-btn-html')
+        });
+        $(window).scroll(function () {
+            tippy.hideAllPoppers()
+        });
+    }
+
+    function init() {
+        initTooltip();
+        initLogo();
+    }
+    init();
+})(jQuery);
