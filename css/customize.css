@@ -192,8 +192,11 @@ blockquote:before { content: '' !important; }
 
 .min-width-992px {min-width: 992px !important;}
 
+.max-width-100 {max-width: 100% !important;}
 .max-width-200px {max-width: 200px !important;}
 .max-width-250px {max-width: 250px !important;}
+
+.max-width-lg {max-width: 1200px !important;}
 
 .height-25px {height: 25px !important;}
 .height-30px {height: 30px !important;}
