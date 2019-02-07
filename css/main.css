@@ -15,12 +15,6 @@ h1, h2, h3, h4 {
     background: no-repeat;
 }
 
-@media only screen and (max-width: 992px) {
-    .logo {width: 45px; height: 30px; margin-top: 17px; margin-bottom: 17px;}
-    .logo-dark {background-image: url("/images/logo/logo_small_dark.png") !important; }
-    .logo-white { background-image: url("/images/logo/logo_small_white.png") !important; }
-}
-
 @media only screen and (min-width: 480px) {
     .mobile-menu-btn {
         display: none;
