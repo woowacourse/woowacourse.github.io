@@ -1,5 +1,19 @@
+.introduce-card-mobile-container {
+    display: none;
+}
+
 @media only screen and (max-width:480px){
     .about-cover .cover-img {
         background-image: url("/images/default/bg-star-mobile.jpeg") !important;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .introduce-card-mobile-container {
+        display: block;
+    }
+
+    .introduce-card-desktop-container {
+        display: none;
     }
 }
