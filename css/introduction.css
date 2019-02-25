@@ -1,0 +1,15 @@
+.lg-text {
+    display: block;
+}
+.sm-text {
+    display: none;
+}
+
+@media only screen and (max-width:480px){
+    .lg-text {
+        display: none !important;
+    }
+    .sm-text {
+        display: block !important;
+    }
+}
