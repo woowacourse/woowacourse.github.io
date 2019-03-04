@@ -1,7 +1,6 @@
 .google-form-container {
     position: relative;
     overflow: hidden;
-    padding-bottom: 10px;
 }
 
 .google-form-container iframe{
