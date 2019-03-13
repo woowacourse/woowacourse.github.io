@@ -51,9 +51,6 @@
                     <a href="/introduction.html" class="pointer text-white text-bold">과정소개</a>
                 </li>
                 <li>
-                    <a href="/apply.html" class="pointer text-white text-bold">과정신청</a>
-                </li>
-                <li>
                     <a href="/faq.html" class="pointer text-white text-bold">FAQ</a>
                 </li>
                 <li>
@@ -71,9 +68,6 @@
                             <a href="/introduction.html" class="pointer text-bold">과정소개</a>
                         </li>
                         <li>
-                            <a href="/apply.html" class="pointer text-bold">과정신청</a>
-                        </li>
-                        <li>
                             <a href="/faq.html" class="pointer text-bold">FAQ</a>
                         </li>
                         <li>
@@ -84,29 +78,62 @@
             </ul>
         </div>
     </div>
+
+    <div class="modal" id="modal-lg">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <a class="modal-close text-gray absolute right-20 z-10 pointer" data-dismiss="modal">
+                        <i class="ti-close"></i>
+                    </a>
+                    <div class="row margin-30">
+                        <div class="col-md-12 text-center mrg-btm-25 pdd-right-0 pdd-left-0">
+                            <h1 class="mrg-top-20 text-center font-size-35 mrg-vertical-15">서류마감 안내</h1>
+                            <div class="row">
+                                <div class="col-md-8 col-sm-12 mx-auto">
+                                    <img class="width-50 mrg-vertical-15" src="/images/pages/index/closeApplications.png">
+                                </div>
+                            </div>
+                            <p class="text-center font-size-20 mx-auto lg-text">
+                                <b>2019 우아한테크코스 1기 서류신청이 마감되었습니다.</b>
+                            </p>
+                            <p class="text-center font-size-18 mx-auto sm-text">
+                                <b>2019 우아한테크코스 1기 <br/> 서류신청이 마감되었습니다.</b>
+                            </p>
+                            <p class="text-center font-size-16 mx-auto markdown lg-text">
+                                서류접수를 해주신 분들께는 3월 14일 목요일에 <br/> <strong><b> 온라인 코딩테스트 (3월 16일 토요일 14:00 ~ 18:00)</b></strong>에 대한 안내가 <br/> 이메일로 발송될 예정입니다.
+                                <b>이메일을 반드시 확인해주세요.</b> <br/>
+                                (이메일을 수신하지 못한 분들은 카카오톡 플러스친구나 메일로 문의주세요.)
+                            </p>
+                            <p class="text-center font-size-16 mx-auto markdown sm-text">
+                                서류접수를 해주신 분들께는 3월 14일 목요일에 <strong><b> 온라인 코딩테스트 <br/> (3월 16일 토요일 14:00 ~ 18:00)</b></strong> <br/>에 대한 안내가 이메일로 발송될 예정입니다. <br/>
+                                <b>이메일을 반드시 확인해주세요.</b> <br/>
+                                (이메일을 수신하지 못한 분들은 카카오톡 플러스친구나 메일로 문의주세요.)
+                            </p>
+                        </div>
+                    </div>
+
+                    <a id="today-close-btn" class="btn text-gray absolute right-10 bottom-5 z-10 mrg-btm-15">
+                        <i class="ti-close pdd-right-5 font-size-11"></i>
+                        <span>오늘 하루 보지 않기</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="about-cover card no-border">
         <div class="cover-img height-100vh overlay-dark bg" style="background-image: url('/images/default/bg-sky.jpeg')">
             <div class="cover-content height-100vh">
                 <div class="text-center mrg-horizon-15 border bottom border-hide-sm">
                     <h1 class="no-mrg-btm font-size-60 main-title">우아한테크코스</h1>
                     <p class="sub-title text-white font-size-20 mrg-btm-0">우아한테크코스 1기는 백엔드 개발자를 위한 과정입니다.</p>
-                    <h2 class="no-mrg-btm">우아한테크코스 1기 지원기간</h2>
-                    <p class="font-size-18 text-bold text-white">[ 2019.03.04(월) 14시 ~ 03.13(수) 18시 ]</p>
-                    <a href="/apply.html" class="btn btn-default display-block font-size-15">우아한테크코스 1기 지원</a>
-                    <p>
-                        지원 전
-                        <a href="/introduction.html" class="btn btn-default pdd-top-5 pdd-btm-5 pdd-horizon-10 mrg-horizon-5">
-                            <i class="ti-new-window text-bold"></i>
-                            <span>과정소개</span>
-
-                        </a>
-                        내용 확인은 필수
-                    </p>
+                    <h2 class="no-mrg-btm">우아한테크코스 1기 온라인 코딩테스트</h2>
+                    <p class="font-size-18 text-bold text-white">[ 2019.03.16(토) 14시 ~ 18시 ]</p>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="container-fluid mrg-btm-30">
         <div class="row mx-auto max-width-lg">
             <div class="col-md-11 mx-auto">
@@ -254,31 +281,31 @@
                             <div class="card-block">
                                 <ul class="event-list">
                                     <li class="event-items">
-                                        <span class="bullet gray"></span>
-                                        <span class="event-name text-dark">지원 모집</span>
+                                        <span class="bullet"></span>
+                                        <span class="event-name text-gray"><del>지원 모집</del></span>
                                         <div class="event-detail">
-                                            <span>3/4~3/13</span>
+                                            <span class="text-gray">3/4(월)~3/13(수)</span>
                                         </div>
                                     </li>
                                     <li class="event-items">
-                                        <span class="bullet gray"></span>
+                                        <span class="bullet success"></span>
                                         <span class="event-name text-dark">온라인 코딩 테스트</span>
                                         <div class="event-detail">
-                                            <span>3/16 14:00 ~ 18:00</span>
+                                            <span>3/16(토) 14:00 ~ 18:00</span>
                                         </div>
                                     </li>
                                     <li class="event-items markdown">
-                                        <span class="bullet success"></span>
+                                        <span class="bullet gray"></span>
                                         <span class="event-name text-dark font-size-16"><strong><b>1차 합격 발표</b></strong></span>
                                         <div class="event-detail">
-                                            <span>3/19</span>
+                                            <span>3/19(화)</span>
                                         </div>
                                     </li>
                                     <li class="event-items">
                                         <span class="bullet gray"></span>
                                         <span class="event-name text-dark">프리코스 시작</span>
                                         <div class="event-detail">
-                                            <span>3/25~</span>
+                                            <span>3/25(월)~</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -298,21 +325,21 @@
                                         <span class="bullet gray"></span>
                                         <span class="event-name text-dark">프리코스</span>
                                         <div class="event-detail">
-                                            <span>~4/14</span>
+                                            <span>~4/14(일)</span>
                                         </div>
                                     </li>
                                     <li class="event-items">
                                         <span class="bullet gray"></span>
                                         <span class="event-name text-dark">최종 오프라인 코딩 테스트</span>
                                         <div class="event-detail">
-                                            <span>4/16 14:00 ~ 18:00</span>
+                                            <span>4/16(화) 14:00 ~ 18:00</span>
                                         </div>
                                     </li>
                                     <li class="event-items markdown">
-                                        <span class="bullet success"></span>
+                                        <span class="bullet gray"></span>
                                         <span class="event-name text-dark font-size-16"><strong><b>최종 합격자 발표</b></strong></span>
                                         <div class="event-detail">
-                                            <span>4/22</span>
+                                            <span>4/22(월)</span>
                                         </div>
                                     </li>
                                 </ul>

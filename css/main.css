@@ -101,3 +101,19 @@ h1, h2, h3, h4 {
 .calendar-event .event-list .event-items .bullet.dark { border-color: #333; }
 
 .calendar-event .event-list .event-items .bullet.gray { border-color: gray; }
+
+.lg-text {
+    display: block;
+}
+.sm-text {
+    display: none;
+}
+
+@media only screen and (max-width:480px){
+    .lg-text {
+        display: none !important;
+    }
+    .sm-text {
+        display: block !important;
+    }
+}
