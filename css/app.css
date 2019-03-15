@@ -392,5 +392,3 @@ a.card{display:block}a.card:focus,a.card:hover{box-shadow:0 7px 15px rgba(0,0,0,
     .is-collapsed .side-nav { left: 0px; }
     .is-collapsed .side-nav .side-nav-inner .side-nav-menu > li > a .title { display: inline-block; }
 }
-
-
