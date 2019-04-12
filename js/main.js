@@ -25,7 +25,7 @@
             }
         });
     }
-    
+
     function initModal() {
         if (document.cookie.indexOf("ncookie=done") < 0){
             $("#modal-lg").modal("show")
@@ -47,6 +47,7 @@
 
     function init() {
         initHeader();
+        initModal();
     }
     init();
 })(jQuery);
