@@ -26,6 +26,18 @@
         });
     }
 
+    function initModal() {
+        if (document.cookie.indexOf("ncookie=done") < 0){
+            $("#modal-lg").modal("show")
+            $("#today-close-btn").click(function () {
+                setCookie( "ncookie","done",24);
+                $("#modal-lg").modal("hide")
+            })
+        } else {
+            $("#modal-lg").attr('style', 'visibility:hidden');
+        }
+    }
+
     function setCookie(name, value, expirehours) {
         var todayDate = new Date();
         todayDate.setHours( todayDate.getHours() + expirehours );
@@ -34,6 +46,7 @@
 
     function init() {
         initHeader();
+        initModal();
     }
     init();
 })(jQuery);
