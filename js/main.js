@@ -46,7 +46,6 @@
 
     function init() {
         initHeader();
-        initModal();
     }
     init();
 })(jQuery);
