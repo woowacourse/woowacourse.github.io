@@ -1,4 +1,5 @@
 # 로컬에서 서버 띄워서 확인하는 방법
+![ezgif-4-093c6b5a523c](https://user-images.githubusercontent.com/50367798/61579435-fa2c3000-ab3f-11e9-85b0-c9486de7e678.gif)
 
 로컬에서 웹서버를 띄워 html, js 등을 테스트하고 싶은데 nginx나 apache를 깔고 설정하고 하는 것이 번거롭다면 아래의 라이브러리를 이용하면 수 초만에 웹서버를 띄우고 작성한 코드를 테스트해볼 수 있다.
 
