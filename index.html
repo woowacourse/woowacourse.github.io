@@ -3,7 +3,7 @@
 <head>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-T3RKBFF');</script>
@@ -35,337 +35,71 @@
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/css/app.css">
-    <link rel="stylesheet" href="/css/customize.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/customize.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+
+    </style>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3RKBFF"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<div>
-    <div class="header navbar bg-transparent no-border">
-        <div class="header-container">
-            <ul class="nav-left mrg-left-0">
-                <li>
-                    <a href="/">
-                        <div class="logo logo-dark d-none" style="background-image: url('/images/logo/logo_full_dark.png')"></div>
-                        <div class="logo logo-white" style="background-image: url('/images/logo/logo_full_white.png')"></div>
-                    </a>
-                </li>
-            </ul>
+<canvas id="bg-canvas"></canvas>
+<div id="main-bg" class="bg-img overlay-dark">
+</div>
+<div class="splash">
+    <div class="centered-unit">
+        <div class="container">
+            <h2 class="text-white font-size-20 text-normal no-mrg">우아한테크코스 2기 모집이 <br/>
+                10월 14일 오후 3시부터 시작됩니다.</h2>
 
-            <ul class="nav-right desktop-menu-btn">
-                <li>
-                    <a href="/introduction.html" class="pointer text-white text-bold">과정소개</a>
-                </li>
-                <li>
-                    <a href="/faq.html" class="pointer text-white text-bold">FAQ</a>
-                </li>
-                <li>
-                    <a href="/contact.html"  class="pointer text-white text-bold">Contact</a>
-                </li>
-            </ul>
+            <div class="countdown large mrg-top-60">
+                <div class="time days">
+                    <div class="value">00</div>
+                    <div class="unit">Days</div>
+                </div>
+                <div class="time hours">
+                    <div class="value">00</div>
+                    <div class="unit">Hours</div>
+                </div>
+                <div class="time minutes">
+                    <div class="value">00</div>
+                    <div class="unit">Minutes</div>
+                </div>
+                <div class="time seconds">
+                    <div class="value">00</div>
+                    <div class="unit">Seconds</div>
+                </div>
+            </div>
 
-            <ul class="nav-right mobile-menu-btn">
-                <li class="dropdown list-unstyled float-right">
-                    <a class="dropdown-toggle pointer text-white text-bold font-size-18" data-toggle="dropdown" aria-expanded="false">
-                        <i class="ti-menu font-size-22"></i>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="/introduction.html" class="pointer text-bold">과정소개</a>
+            <div class="absolute width-100 left-0">
+                <div class="social-container">
+                    <ul class="social no-pdd mrg-top-30 mrg-btm-0 text-center">
+                        <li class="list-inline-item no-pdd-horizon">
+                            <a href="http://woowabros.github.io/category/techcourse/" target="_blank" id="github-btn" class="btn btn-default btn-icon btn-rounded no-mrg">
+                                <i class="ti-github font-size-20"></i>
+                            </a>
                         </li>
-                        <li>
-                            <a href="/faq.html" class="pointer text-bold">FAQ</a>
                         </li>
-                        <li>
-                            <a href="/contact.html"  class="pointer text-bold">Contact</a>
+                        <li class="list-inline-item no-pdd-horizon">
+                            <a href="https://www.youtube.com/channel/UC-mOekGSesms0agFntnQang/featured?view_as=subscribe" target="_blank" id="youtube-btn" class="btn btn-default btn-icon btn-rounded no-mrg">
+                                <i class="fa fa-youtube-play font-size-20"></i>
+                            </a>
                         </li>
                     </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="about-cover card no-border">
-        <div class="cover-img height-100vh overlay-dark bg" style="background-image: url('/images/default/bg-sky.jpeg')">
-            <div class="cover-content height-100vh">
-                <div class="text-center mrg-horizon-15 border bottom border-hide-sm">
-                    <h1 class="no-mrg-btm font-size-60 main-title">우아한테크코스</h1>
-                    <p class="sub-title text-white font-size-20 mrg-btm-0">우아한테크코스 1기는 백엔드 개발자를 위한 과정입니다.</p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid mrg-btm-30">
-        <div class="row mx-auto max-width-lg">
-            <div class="col-md-11 mx-auto">
-                <div class="mx-auto text-center my-5 border bottom border-hide-sm">
-                    <h1 class="no-mrg-btm">What is 우아한테크코스</h1>
-                    <p class="mb-4">실무 경험을 가진 프로그래머로 성장하는 것을 지향합니다.</p>
-                </div>
-            </div>
-
-            <div class="introduce-card-desktop-container col-md-11 mx-auto">
-                <div class="card">
-                    <div class="card-media mrg-btm-30">
-                        <img class="tdd-lecture-img img-responsive overlay-dark bg" src="/images/pages/index/tdd_lecture.jpg" alt="">
-                    </div>
-                    <div class="card-horizon mrg-btm-30">
-                        <div class="image-container col-md-6 d-flex justify-content-center align-items-center padding-30">
-                            <img class="width-65" src="/images/pages/index/cycle.jpg" />
-                        </div>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-6 ml-auto">
-                                    <div class="pdd-vertical-30 pdd-horizon-25">
-                                        <h1 class="mrg-btm-20 font-size-30 text-center text-semibold">우아한테크코스</h1>
-                                        <p class="markdown">
-                                            우아한테크코스는 <strong><b>일반 사용자용 서비스</b></strong>를 개발하는 회사가 필요로 하는 역량을 가진 프로그래머를 양성하기 위한 교육입니다.
-                                            우리의 목표는 <strong><b>자기 주도적으로 학습하고 성장</b></strong>하고 싶은 모든 사람들에게 도움이 되는 교육을 만드는 것입니다.
-                                            우아한테크코스의 교육 특징은 크게 3가지 입니다.
-                                        </p>
-                                        <ul class="lh-1-9 list-style-none pdd-left-10">
-                                            <li>
-                                                <span class="bullet success"></span>
-                                                <span class="text-bold pdd-left-10"> 자기주도적으로 학습하고, 동료들과 공동으로 학습</span>
-                                            </li>
-                                            <li>
-                                                <span class="bullet success"></span>
-                                                <span class="text-bold pdd-left-10"> 미션수행 후 코드리뷰를 통해 피드백을 주고 받는 방식으로 진행</span>
-                                            </li>
-                                            <li>
-                                                <span class="bullet success"></span>
-                                                <span class="text-bold pdd-left-10"> 프로젝트 진행을 통한 깊이 있는 협업과 개발 프로세스 경험</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="introduce-card-mobile-container width-100 my-5">
-                <div class="card">
-                    <div class="card-media">
-                        <img class="img-responsive" src="/images/pages/index/tdd_lecture.jpg" alt="">
-                    </div>
-                    <div class="card-block">
-                        <img class="width-65 mx-auto mrg-vertical-30 d-block" src="/images/pages/index/cycle.jpg" />
-                        <h1 class="mrg-btm-20 pdd-top-10 font-size-30 text-center text-semibold">우아한테크코스</h1>
-                        <p class="markdown">
-                            우아한테크코스는 <strong><b>일반 사용자용 서비스</b></strong>를 개발하는 회사가 필요로 하는 역량을 가진 프로그래머를 양성하기 위한 교육입니다.
-                            우리의 목표는 <strong><b>자기 주도적으로 학습하고 성장</b></strong>하고 싶은 모든 사람들에게 도움이 되는 교육을 만드는 것입니다.
-                            우아한테크코스의 교육 특징은 크게 3가지 입니다.
-                        </p>
-                        <ul class="lh-1-9 list-style-none pdd-left-10">
-                            <li>
-                                <span class="bullet success"></span>
-                                <span class="text-bold pdd-left-10"> 자기주도적으로 학습하고, 동료들과 공동으로 학습</span>
-                            </li>
-                            <li>
-                                <span class="bullet success"></span>
-                                <span class="text-bold pdd-left-10"> 미션수행 후 코드리뷰를 통해 피드백을 주고 받는 방식으로 진행</span>
-                            </li>
-                            <li>
-                                <span class="bullet success"></span>
-                                <span class="text-bold pdd-left-10"> 프로젝트 진행을 통한 깊이 있는 협업과 개발 프로세스 경험</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-11 mx-auto text-center my-5 border bottom border-hide-sm">
-                <h1 class="no-mrg-btm">Who is the 우아한테크코스 for?</h1>
-                <p class="mb-4">우아한테크코스는 아래와 같은 프로그래밍에 대한 기본 지식과 경험이 있는 사람들을 대상으로 합니다.</p>
-            </div>
-
-            <div class="col-md-11 mx-auto">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-block">
-                                <img class="img-responsive width-70 d-block mx-auto" src="/images/pages/index/basic.jpg" alt="">
-                                <h2 class="mrg-vertical-20 text-center">Basic</h2>
-                                <p class="markdown">
-                                    <strong><b>함수, 변수, 데이터 타입, 조건문, 반복문</b></strong>을 활용해 프로그래밍 구현이 가능해야 합니다.
-                                    프로그래밍 언어보다는 프로그래밍의 기본적인 개념과 컴퓨터적 사고방식이 중요합니다.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-block">
-                                <img class="img-responsive width-70 d-block mx-auto" src="/images/pages/index/programming.jpg" alt="">
-                                <h2 class="mrg-vertical-20 text-center">Programming</h2>
-                                <p class="markdown">
-                                    300라인 정도의 프로그래밍이 구현이 가능한 수준이어야 합니다. 300라인 정도의 프로그래밍이 의미하는 바는
-                                    <strong><b>하나 이상의 기능을 가진 작은 애플리케이션의 개발</b></strong>을 의미합니다. ex) 계산기
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-block">
-                                <img class="img-responsive width-70 d-block mx-auto" src="/images/pages/index/git.jpg" alt="">
-                                <h2 class="mrg-vertical-20 text-center">Git</h2>
-                                <p class="markdown">
-                                    <strong><b>분산 버전 관리 시스템인 Git</b></strong>과 같은 관리 도구를 활용하여 구현한 소스 코드를 추가 및 관리할 수 있어야 합니다.
-                                    우아한테크코스는 Github을 이용하여 모든 미션을 진행합니다.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-11 mx-auto text-center my-5 border bottom border-hide-sm">
-                <h1 class="no-mrg-btm">When is 우아한테크코스</h1>
-                <p class="mb-4">2019년도 우아한테크코스 1기 일정을 소개합니다</p>
-            </div>
-
-            <div class="col-md-11 mx-auto">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card calendar-event">
-                            <div class="card-block overlay-dark bg" style="background-image: url('/images/pages/index/sprout.jpg')">
-                                <div class="text-center">
-                                    <h1 class="font-size-45 text-light mrg-btm-5 lh-1">3<span class="font-size-25">월</span></h1>
-                                </div>
-                            </div>
-                            <div class="card-block">
-                                <ul class="event-list">
-                                    <li class="event-items">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>지원 모집</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">3/4(월)~3/13(수)</span>
-                                        </div>
-                                    </li>
-                                    <li class="event-items">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>온라인 코딩 테스트</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">3/16(토) 14:00 ~ 18:00</span>
-                                        </div>
-                                    </li>
-                                    <li class="event-items">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>1차 합격 발표</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">3/19(화)</span>
-                                        </div>
-                                    </li>
-                                    <li class="event-items markdown">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>프리코스 시작</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">3/22(금)~</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card calendar-event">
-                            <div class="card-block overlay-dark bg" style="background-image: url('/images/pages/index/cherry.jpg')">
-                                <div class="text-center">
-                                    <h1 class="font-size-45 text-light mrg-btm-5 lh-1">4<span class="font-size-25">월</span></h1>
-                                </div>
-                            </div>
-                            <div class="card-block">
-                                <ul class="event-list">
-                                    <li class="event-items">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>프리코스</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">~4/14(일)</span>
-                                        </div>
-                                    </li>
-                                    <li class="event-items">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>최종 오프라인 코딩 테스트</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">4/16(화) 14:00 ~ 18:00</span>
-                                        </div>
-                                    </li>
-                                    <li class="event-items markdown">
-                                        <span class="bullet"></span>
-                                        <span class="event-name text-gray"><del>최종 합격자 발표</del></span>
-                                        <div class="event-detail">
-                                            <span class="text-gray">4/22(월)</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card calendar-event">
-                            <div class="card-block overlay-dark bg" style="background-image: url('/images/pages/index/mayFlower.jpg')">
-                                <div class="text-center">
-                                    <h1 class="font-size-45 text-light mrg-btm-5 lh-1">5<span class="font-size-25">월</span></h1>
-                                </div>
-                            </div>
-                            <div class="card-block">
-                                <ul class="event-list">
-                                    <li class="event-items">
-                                        <span class="bullet success"></span>
-                                        <span class="event-name text-dark">우아한테크코스 OT</span>
-                                        <div class="event-detail markdown">
-                                            <span>5/7(화)</span> <br/>
-                                            <div class="d-inline-block mrg-top-5">우아한테크코스는 4단계 과정으로 진행됩니다. 각 레벨 별 과정은
-                                                <a class="text-bold" href="/introduction.html">
-                                                    [과정소개]
-                                                    <i class="ti-new-window text-bold"></i>
-                                                </a>
-                                                <span>페이지에서 확인해주세요.</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="logo-container">
+                    <a href="/" class="mx-auto">
+                        <div id="wooteco-logo" class="logo logo-white mx-auto" style="background-image: url('/images/logo/logo_full_white.png')"></div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<a id="kakao-btn" href="//pf.kakao.com/_budWj" target="_blank" class="btn-kakaotalk btn btn-rounded btn-icon fixed right-30 bottom-30 width-50px height-50px z-10">
-    <i class="fa fa-comment kakao-icon font-size-18 relative top-3 left-1"></i>
-</a>
-
-<footer class="content-footer">
-    <div class="footer">
-        <div class="copyright">
-            <img class="d-inline-block logo relative right-5" src="/images/logo/logo_full_dark.png">
-            <p class="go-right mrg-top-20">
-                <a href="/privacy.html" class="text-gray">개인정보처리방침</a>
-            </p>
-            <p class="pdd-left-5 mrg-top-minus-15px">Copyright © <b class="text-dark">우아한테크코스</b>. All rights reserved.</p>
-        </div>
-        <a href="https://woowabros.github.io/" target="_blank" class="btn btn-default btn-rounded bg-transparent">우아한형제들 기술블로그</a>
-    </div>
-</footer>
-
-<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
-<script src="//unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-<script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
-<script src="/js/main.js"></script>
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="js/countdown.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
