@@ -7,7 +7,7 @@ const COMING_SOON_APP = (() => {
 
     const setCountdown = () => {
         $(".countdown").countdownTimer({
-            endTime: new Date("October 14, 2019 15:00:00 UTC+0200")
+            endTime: new Date("October 14, 2019 15:00:00 UTC+0900")
         })
     }
 
