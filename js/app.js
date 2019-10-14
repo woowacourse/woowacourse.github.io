@@ -46,6 +46,7 @@ const APP = (() => {
                 animateIn: 'fadeIn',
                 animateOut: 'fadeOut',
                 responsiveClass:true,
+                lazyLoad:true
             })
         }
     }
