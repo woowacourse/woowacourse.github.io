@@ -22,10 +22,10 @@ const INDEX_APP = (() => {
         const scheduleNum = index + 1
         const separator = `<div class="separator"></div>`
         return `
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="schedule_item text-center">
                         <div class="number">${scheduleNum}</div>
-                        ${scheduleNum === 1 || scheduleNum === 7 ? '' : separator}
+                        ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
                         <div class="new_calendar_content">
                             <h4 class="f_size_20 f_p f_500">${schedule.title}</h4>
                             <p class="f_400 f_size_15 mb-0">${schedule.content}</p>
