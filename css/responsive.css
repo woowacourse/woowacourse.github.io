@@ -80,7 +80,7 @@
     .service_carousel {
         padding-left: 70px;
     }
-    .agency_featured_img img{
+    .curriculum_level_img img{
         max-width: 100%;
     }
     .about_content_left {
@@ -408,14 +408,14 @@
         padding-bottom: 40px;
         padding-top: 20px;
     }
-    .agency_featured_item .agency_featured_content{
+    .curriculum_level_item .curriculum_level_content{
         padding-right: 0px;
         padding-left: 20px;
     }
     .features_info .dot_img,.dot{
         display: none;
     }
-    .agency_featured_item {
+    .curriculum_level_item {
         margin-top: 80px;
     }
     .features_info{
@@ -1356,7 +1356,7 @@
     .ex_team_item img {
         width: 100%;
     }
-    .features_info.feature_info_two .agency_featured_img{
+    .features_info.feature_info_two .curriculum_level_img{
         text-align: left !important;
         margin-bottom: 50px;
     }
@@ -1406,13 +1406,13 @@
         right: 30px;
         top: 30px;
     }
-    .agency_featured_item .agency_featured_img{
+    .curriculum_level_item .curriculum_level_img{
         text-align: left !important;
     }
     .agency_content{
         max-width: 500px;
     }
-    .agency_featured_item .agency_featured_content{
+    .curriculum_level_item .curriculum_level_content{
         padding-left: 0px;
         margin-top: 50px;
     }
@@ -2408,10 +2408,10 @@
     .about_img .about_img_slider .about_item .about_text h5{
         font-size: 15px;
     }
-    .agency_featured_item .agency_featured_img{
+    .curriculum_level_item .curriculum_level_img{
         text-align: center !important;
     }
-    .agency_featured_item .agency_featured_content{
+    .curriculum_level_item .curriculum_level_content{
         padding-left: 0;
         margin-top: 50px;
     }
@@ -2427,7 +2427,7 @@
     .agency_service_area{
         padding: 70px 0px;
     }
-    .agency_featured_area {
+    .curriculum_level_area {
         padding-top: 120px;
     }
     .agency_testimonial_area,.software_featured_area{
@@ -2489,7 +2489,7 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .app_featured_area,.agency_featured_area_two{
+    .app_featured_area,.curriculum_level_area_two{
         padding-bottom: 80px;
     }
     .app_service_area{
@@ -2498,7 +2498,7 @@
     .fact_author_img.fact_author_img_two{
         text-align: center !important;
     }
-    .features_info.feature_info_two .agency_featured_img{
+    .features_info.feature_info_two .curriculum_level_img{
         margin-bottom: 0px;
     }
     .partner_logo_area_five{
@@ -2530,7 +2530,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .process_area .agency_featured_item{
+    .process_area .curriculum_level_item{
         margin-top: 50px;
     }
     .single_product_item .single_pr_details{
@@ -3118,7 +3118,7 @@
     .payment_clients_area .payment_clients_inner {
         height: 690px;
     }
-    .agency_featured_area {
+    .curriculum_level_area {
         padding-top: 80px;
     }
     .about_img .about_img_slider .about_item .about_text{

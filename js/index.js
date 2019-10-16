@@ -39,11 +39,11 @@ const INDEX_APP = (() => {
         const schedules = [
             {
                 title: '서류지원',
-                content: '10월 25일(금) ~ 11월 5일(화) 10시'
+                content: `10월 25일(금) 15시 <br/>~ 11월 5일(화) 10시`
             },
             {
                 title: '온라인 코딩 테스트',
-                content: '11월 9일(토)'
+                content: '11월 9일(토) 12시 ~ 16시'
             },
             {
                 title: '1차 합격자 발표',
@@ -51,7 +51,7 @@ const INDEX_APP = (() => {
             },
             {
                 title: '프리코스',
-                content: '11월 27일(수) ~ 12월 18일(수)'
+                content: `11월 27일(수) <br/>~ 12월 18일(수)`
             },
             {
                 title: '최종 테스트',

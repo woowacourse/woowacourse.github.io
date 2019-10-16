@@ -5503,11 +5503,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-weight: 300;
 }
 
-.agency_featured_area {
+.curriculum_level_area {
   padding-top: 160px;
 }
 
-.agency_featured_area_two {
+.curriculum_level_area_two {
   padding-bottom: 150px;
 }
 
@@ -5577,25 +5577,25 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: auto;
 }
 
-.agency_featured_item {
+.curriculum_level_item {
   margin-top: 130px;
 }
 
-.agency_featured_item .agency_featured_content {
+.curriculum_level_item .curriculum_level_content {
   position: relative;
 }
 
-.agency_featured_item .agency_featured_content h3 {
+.curriculum_level_item .curriculum_level_content h3 {
   font: 500 26px/36px "Poppins", sans-serif;
   color: #222d39;
   margin: 32px 0px 25px;
 }
 
-.agency_featured_item .agency_featured_content p {
+.curriculum_level_item .curriculum_level_content p {
   font-size: 15px;
 }
 
-.agency_featured_item .agency_featured_content .icon {
+.curriculum_level_item .curriculum_level_content .icon {
   width: 46px;
   height: 46px;
   line-height: 46px;
@@ -5612,7 +5612,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-align: center;
 }
 
-.agency_featured_item.agency_featured_item_two .agency_featured_content .dot {
+.curriculum_level_item.curriculum_level_item_two .curriculum_level_content .dot {
   left: 45px;
 }
 
