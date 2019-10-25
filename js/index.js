@@ -20,11 +20,29 @@ const INDEX_APP = (() => {
 
     const scheduleTemplate = (schedule, index) => {
         const scheduleNum = index + 1
-        const separator = `<div class="separator"></div>`
+        const separator = `<div class="separator "></div>`
+        const pulse =
+            `
+                <div class="pulse_img mx-auto">
+                    <div class="img_icon blue">
+                        <span class="pluse_1"></span>
+                    </div>
+                </div>
+            `
+        const applyBtn =
+            `
+    
+                <a href="/apply.html" class="app_btn btn_hover cus_mb-10 apply-btn">지원하기</a>
+            `
+
         return `
-                <div class="col-lg-3 col-sm-6">
-                    <div class="schedule_item text-center">
-                        <div class="number">${scheduleNum}</div>
+              <div class="col-lg-3 col-sm-6">
+                           ${scheduleNum === 1 ? applyBtn : ''}     
+                    <div class="schedule_item text-center relative">
+                        <div class="number">
+                            <span class="z-10 relative">${scheduleNum}</span>
+                            ${scheduleNum === 1 ? pulse : ''}     
+                        </div>
                         ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
                         <div class="new_calendar_content">
                             <h4 class="f_size_20 f_p f_500">${schedule.title}</h4>

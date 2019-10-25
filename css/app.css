@@ -1122,7 +1122,7 @@ a.card:focus,a.card:hover{box-shadow:0 7px 15px rgba(0,0,0,.075)}
 @media only screen and (max-width:767px){.border.border-hide-sm{border:0!important}}
 .no-border{border:0!important;border-radius:0!important}
 
-@media only screen and (max-width:767px){.text-center-sm{text-align:center!important}.text-left-sm{text-align:left!important}.text-right-sm{text-align:right!important}}
+@media only screen and (max-width:767px){.text-center-sm{text-align:center!important}.text-left-sm{text-align:left!important}.text-right-sm{text-align:right!important}.text-align-justify-sm{text-align: justify}}
 .vertical-align{display:table;height:100%;width:100%}.vertical-align .table-cell{display:table-cell;vertical-align:middle}.vertical-align-super{vertical-align:super}.border-radius-4{border-radius:4px!important}.border-radius-6{border-radius:6px!important}.border-radius-8{border-radius:8px!important}.border-radius-10{border-radius:10px!important}.border-radius-round{border-radius:50px!important}
 
 

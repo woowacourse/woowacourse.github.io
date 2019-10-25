@@ -39,6 +39,7 @@
         margin-bottom: 55px;
     }
 }
+
 @media (max-width: 1550px){
     .s_features_item .s_features_img img{
         max-width: 100%;
@@ -350,7 +351,7 @@
     .erp_testimonial_info:hover .owl-nav button.owl-prev,.erp_testimonial_info:hover .owl-nav button.owl-next{
         opacity: 1;
     }
-    .analytices_list_area .macbook_a {
+    .apply_list_area .macbook_a {
         right: -333px;
     }
 }
@@ -1077,21 +1078,19 @@
         padding-top: 120px;
         padding-bottom: 80px;
     }
-    .h_analytices_img img,.h_analytices_features_item .h_analytices_img_two img{
+    .h_apply_img img,.h_apply_features_item .h_apply_img_two img{
         max-width: 100%;
     }
-    .h_analytices_features_item .h_analytices_img .analytices_img_two{
+    .h_apply_features_item .h_apply_img .apply_img_two{
         left: 0;
     }
-    .h_analytices_features_item .h_analytices_img_two .analytices_img_two{
+    .h_apply_features_item .h_apply_img_two .apply_img_two{
         right: 0;
     }
     .support_home_img img{
         max-width: 100%;
     }
 }
-
-
 
 @media (max-width:991px){
     .s_service_section {
@@ -2321,25 +2320,25 @@
         height: auto;
         padding-top: 150px;
     }
-    .h_analytices_features_item .h_analytices_content{
+    .h_apply_features_item .h_apply_content{
         margin-top: 50px;
     }
-    .analytices_price_item{
+    .apply_price_item{
         margin-bottom: 30px;
     }
-    .analytices_customers_logo_area {
+    .apply_customers_logo_area {
         padding: 70px 0px 20px;
     }
-    .analytices_logo_content .analytices_title p{
+    .apply_logo_content .apply_title p{
         max-width: 100%;
     }
-    .analytices_list_area .macbook_a{
+    .apply_list_area .macbook_a{
         display: none;
     }
-    .analytices_list{
+    .apply_list{
         padding-top: 0;
     }
-    .analytices_list_area{
+    .apply_list_area{
         padding-bottom: 50px;
     }
     .header_area .container{
@@ -3010,16 +3009,16 @@
     .section-2 .pp_mackbook_img {
         height: 480px;
     }
-    .h_analytices_features_item .h_analytices_img .analytices_img_two {
+    .h_apply_features_item .h_apply_img .apply_img_two {
         left: 20px;
     }
-    .h_analytices_features_area{
+    .h_apply_features_area{
         padding: 0px 0px 80px;
     }
-    .h_analytices_features_area .er_btn{
+    .h_apply_features_area .er_btn{
         margin-top: 0px;
     }
-    .h_analytices_features_item{
+    .h_apply_features_item{
         padding: 80px 0px;
     }
     .setup_inner .setup_item .line{
@@ -3035,10 +3034,10 @@
         margin-top: 50px;
         margin-bottom: 30px;
     }
-    .analytices_logo img{
+    .apply_logo img{
         max-width: 100%;
     }
-    .analytices_logo_content{
+    .apply_logo_content{
         padding-right: 0;
     }
     .integration_img{
@@ -4126,13 +4125,13 @@
     .section_one_img .dots{
         display: none;
     }
-    .h_analytices_features_item .h_analytices_img_two{
+    .h_apply_features_item .h_apply_img_two{
         padding-left: 0;
     }
-    .h_analytices_features_item .h_analytices_img_two .analytices_img_one,.h_analytices_features_item .h_analytices_img_two .analytices_img_two{
+    .h_apply_features_item .h_apply_img_two .apply_img_one,.h_apply_features_item .h_apply_img_two .apply_img_two{
         max-width: 70%;
     }
-    .h_analytices_features_item .h_analytices_img_two .analytices_img_three{
+    .h_apply_features_item .h_apply_img_two .apply_img_three{
         left: 40%;
         max-width: 50%;
     }
@@ -4478,5 +4477,4 @@
     .payment_content_two .payment_img .payment_icon.icon_one,.payment_content_two .payment_img .payment_icon.icon_two,.payment_content_two .payment_img .payment_icon.icon_three,.payment_content_two .payment_img .payment_icon.icon_four,.payment_content_two .payment_img .payment_icon.icon_five,.payment_content_two .payment_img .payment_icon.icon_six{
         display: none;
     }
-
 }

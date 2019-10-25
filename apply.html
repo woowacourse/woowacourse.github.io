@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="ko">
-
 <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF2QC99ETP"></script>
     <script src="include/js/gtm.js"></script>
@@ -33,7 +32,7 @@
     <link rel="stylesheet" href="css/style.css?v=20191025">
     <link rel="stylesheet" href="css/responsive.css?v=20191025">
     <link rel="stylesheet" href="css/app.css?v=20191025">
-    <link rel="stylesheet" href="css/curriculum.css?v=20191025">
+    <link rel="stylesheet" href="css/apply.css?v=20191025">
 </head>
 
 <body>
@@ -51,10 +50,6 @@
                 <span data-text-preloader="스" class="letters-loading">스</span>
             </div>
             <p class="text-center hanna-air">Loading</p>
-            <h4 class="ie-support-text font-size-17 text-center d-none">
-                Internet Explorer에서는 홈페이지 이용이 원활하지 않습니다. <br/>
-                Chrome, Firefox 등 다른 브라우저나 모바일을 이용해 접속해주세요.
-            </h4>
         </div>
         <div class="loader">
             <div class="row">
@@ -70,13 +65,14 @@
     <header id="header-template" class="header_area"></header>
 
     <section class="main_banner_area">
-        <div class="main_slider owl-carousel curriculum-banner-img">
+        <div class="main_slider owl-carousel apply-banner-img">
             <div class="main_banner_item"></div>
         </div>
         <div class="container">
             <div class="main_banner_text text-center">
-                <h2>교육과정 안내</h2>
-                <p class="f_400 w_color f_size_16 l_height26">우아한테크코스는 총 4단계의 레벨로 이루어져 있습니다.</p>
+                <h2>지원하기</h2>
+                <p class="f_400 w_color f_size_16 l_height26 desktop-view">지원하기전 반드시 아래의 질문에 대해 충분히 고민해보세요.</p>
+                <p class="f_400 w_color f_size_16 l_height26 mobile-view">지원하기전 반드시 <br/>아래의 질문에 대해 충분히 고민해보세요.</p>
             </div>
         </div>
     </section>
@@ -84,29 +80,25 @@
     <section class="easy_setup_area sec_pad">
         <div class="container">
             <div class="hosting_title apply_title text-center">
-                <h2 class="wow fadeInUp f_300 mrg-btm-20" data-wow-delay="0.2s">4단계의 커리큘럼과 문화</h2>
-                <p class="wow fadeInUp" data-wow-delay="0.4s">
-                    우아한테크코스는 기술적인 교육과정뿐만 아니라 소프트스킬도 중요하게 생각하고 있습니다.
-                    그래서 4단계의 레벨동안 웹백엔드 과정뿐만 아니라, 말하기와 글쓰기를 같이 진행하고 있습니다.
+                <h2 class="f_300 mrg-btm-20" data-wow-delay="0.2s">미리 생각해 볼 질문들</h2>
+                <p class="pdd-horizon-20">
+                    우아한테크코스는 4년제 대학 전공에 비해 상대적으로 짧은 기간 동안 소프트웨어를 집중적으로 학습하는 과정입니다.
+                    교육 과정을 소화하려면 프로그래밍에 대한 역량도 중요하지만 힘든 과정을 포기하지 않고 지속할 수 있는 동기, 성실성, 간절함도 중요하게 생각합니다.
+                    지원자들의 경험을 판단하기 위해 과정을 지원할 때 아래 제시하는 질문에 대한 답변을 받을 계획입니다.
                 </p>
             </div>
-
-            <div id="curriculum-container" class="setup_inner mrg-top-40"></div>
+            <div id="apply-container" class="setup_inner mrg-top-40"></div>
         </div>
     </section>
+
     <div id="footer-template"></div>
 </div>
-<script>
-    const isIE = /MSIE|Trident/.test(window.navigator.userAgent)
-
-    if ( isIE ) {
-        document.querySelector('.ie-support-text').classList.remove('d-none')
-    }
-</script>
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
 <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="js/app.js?v=20191025"></script>
-<script src="js/curriculum.js?v=20191025"></script>
+<script src="js/apply.js?v=20191025"></script>
 </body>
+
 </html>
