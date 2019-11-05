@@ -36,12 +36,11 @@ const INDEX_APP = (() => {
             `
 
         return `
-              <div class="col-lg-3 col-sm-6">
-                           ${scheduleNum === 1 ? applyBtn : ''}     
+               <div class="col-lg-3 col-sm-6">
                     <div class="schedule_item text-center relative">
                         <div class="number">
                             <span class="z-10 relative">${scheduleNum}</span>
-                            ${scheduleNum === 1 ? pulse : ''}     
+                            ${scheduleNum === 2 ? pulse : ''}     
                         </div>
                         ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
                         <div class="new_calendar_content">
@@ -102,9 +101,37 @@ const INDEX_APP = (() => {
         }
     }
 
+    const initModal = () => {
+        if (document.cookie.indexOf("ncookie=done") < 0) {
+            showModal('modal-lg')
+            document.getElementById('today-close-btn').addEventListener('click', () => {
+                setCookie( "ncookie","done",24)
+                hideModal('modal-lg')
+            })
+        } else {
+            document.getElementById('modal-lg').classList.add('d-none')
+        }
+
+    }
+
+    const showModal = (id) => {
+        $(`#${id}`).modal('show')
+    }
+
+    const hideModal = (id) => {
+        $(`#${id}`).modal('hide')
+    }
+
+    const setCookie = (name, value, expirehours) => {
+        const todayDate = new Date()
+        todayDate.setHours( todayDate.getHours() + expirehours )
+        document.cookie = `${name}=${escape(value)};path=/; expires=${todayDate.toGMTString()};`
+    }
+
     const init = () => {
         createBannerBgImages()
         createSchedule()
+        initModal()
     }
 
     return {

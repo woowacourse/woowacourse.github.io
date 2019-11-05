@@ -2,11 +2,12 @@ const CURRICULUM_APP = (() => {
     'use strict';
     const applyStepTemplate = (item, index) => {
 
-        const applyBtn = `
-                            <a 
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSejGbH3HErXw7eg5-2lGx-BXqCeV73y7YaInpDbukVG9MBCtA/viewform?usp=sf_link" 
-                            class="app_btn btn_hover cus_mb-10 mrg-top-30 width-100 text-center border-radius-5 font-size-20">지원하기</a>
-                         `
+        const disabledBtn =
+                            `
+                            <a class="btn btn-default mrg-top-30 width-100 text-center border-radius-round font-size-20 disabled">
+                                지원마감
+                            </a>
+                            `
 
         return `
                 <div class="setup_item row">
@@ -25,7 +26,7 @@ const CURRICULUM_APP = (() => {
                             <p class="markdown pdd-top-20 text-align-justify-sm">
                                ${item.contents}
                             </p>
-                            ${index === 4 ? applyBtn : ''}
+                            ${index === 4 ? disabledBtn : ''}
                         </div>
                     </div>
                     <div class="line bottom_half height"></div>
@@ -86,7 +87,6 @@ const CURRICULUM_APP = (() => {
                 contents: `
                            우아한테크코스는 10개월 동안 함께 성장할 여러분의 진솔한 이야기를 기다립니다.
                           `
-
             }
 
         ]

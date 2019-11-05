@@ -81,3 +81,24 @@
         bottom: 53px;
     }
 }
+
+.lg-text {
+    display: block;
+}
+
+.sm-text {
+    display: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+@media only screen and (max-width:480px){
+    .lg-text {
+        display: none !important;
+    }
+    .sm-text {
+        display: block !important;
+    }
+}
