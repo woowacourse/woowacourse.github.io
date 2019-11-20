@@ -31,7 +31,6 @@ const INDEX_APP = (() => {
             `
         const applyBtn =
             `
-    
                 <a href="/apply.html" class="app_btn btn_hover cus_mb-10 apply-btn">지원하기</a>
             `
 
@@ -40,7 +39,7 @@ const INDEX_APP = (() => {
                     <div class="schedule_item text-center relative">
                         <div class="number">
                             <span class="z-10 relative">${scheduleNum}</span>
-                            ${scheduleNum === 3 ? pulse : ''}     
+                            ${scheduleNum === 4 ? pulse : ''}     
                         </div>
                         ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
                         <div class="new_calendar_content">
@@ -131,10 +130,11 @@ const INDEX_APP = (() => {
     const init = () => {
         createBannerBgImages()
         createSchedule()
+        initModal()
     }
 
     return {
-        init: init,
+        init
     }
 })()
 
