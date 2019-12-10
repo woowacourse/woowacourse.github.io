@@ -98,3 +98,6 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/git,webstorm
+
+# dependencies
+node_modules
