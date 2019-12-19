@@ -28,20 +28,20 @@ const INDEX_APP = (() => {
             `
 
     return `
-               <div class="col-lg-3 col-sm-6">
-                    <div class="schedule_item text-center relative">
-                        <div class="number">
-                            <span class="z-10 relative">${scheduleNum}</span>
-                            ${scheduleNum === 4 ? pulse : ''}     
-                        </div>
-                        ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
-                        <div class="new_calendar_content">
-                            <h4 class="f_size_20 f_p f_500">${schedule.title}</h4>
-                            <p class="f_400 f_size_15 mb-0">${schedule.content}</p>
-                        </div>
-                    </div>
-                </div>
-                `
+             <div class="col-lg-3 col-sm-6">
+                  <div class="schedule_item text-center relative">
+                      <div class="number">
+                          <span class="z-10 relative">${scheduleNum}</span>
+                          ${scheduleNum === 5 ? pulse : ''}     
+                      </div>
+                      ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
+                      <div class="new_calendar_content">
+                          <h4 class="f_size_20 f_p f_500">${schedule.title}</h4>
+                          <p class="f_400 f_size_15 mb-0">${schedule.content}</p>
+                      </div>
+                  </div>
+              </div>
+              `
   }
 
   const createSchedule = () => {
@@ -119,6 +119,7 @@ const INDEX_APP = (() => {
   const init = () => {
     createBannerBgImages()
     createSchedule()
+    initModal()
   }
 
   return {
