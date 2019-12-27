@@ -32,7 +32,7 @@ const INDEX_APP = (() => {
                   <div class="schedule_item text-center relative">
                       <div class="number">
                           <span class="z-10 relative">${scheduleNum}</span>
-                          ${scheduleNum === 5 ? pulse : ''}     
+                          ${scheduleNum === 6 ? pulse : ''}     
                       </div>
                       ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
                       <div class="new_calendar_content">
@@ -119,7 +119,6 @@ const INDEX_APP = (() => {
   const init = () => {
     createBannerBgImages()
     createSchedule()
-    initModal()
   }
 
   return {
