@@ -16,7 +16,7 @@ const INDEX_APP = (() => {
            `
   }
 
-  const scheduleTemplate = (schedule, index) => {
+  const scheduleTemplate = (schedule, index, focusNum) => {
     const scheduleNum = index + 1
     const separator = '<div class="separator "></div>'
     const pulse = `
@@ -32,7 +32,7 @@ const INDEX_APP = (() => {
                   <div class="schedule_item text-center relative">
                       <div class="number">
                           <span class="z-10 relative">${scheduleNum}</span>
-                          ${scheduleNum === 6 ? pulse : ''}     
+                          ${focusNum === scheduleNum ? pulse : ''}     
                       </div>
                       ${scheduleNum === 1 || scheduleNum === 5 ? '' : separator}
                       <div class="new_calendar_content">
@@ -80,8 +80,10 @@ const INDEX_APP = (() => {
       },
     ]
 
+    const focusNum = isScheduleTime() ? 7 : 6
+
     const scheduleContainer = document.getElementById('calender-container')
-    schedules.map((schedule, index) => scheduleContainer.insertAdjacentHTML('beforeend', scheduleTemplate(schedule, index)))
+    schedules.map((schedule, index) => scheduleContainer.insertAdjacentHTML('beforeend', scheduleTemplate(schedule, index, focusNum)))
   }
 
   const createBannerBgImages = () => {
@@ -116,9 +118,19 @@ const INDEX_APP = (() => {
     document.cookie = `${name}=${escape(value)};path=/; expires=${todayDate.toGMTString()};`
   }
 
+  const isScheduleTime = () => {
+    const scheduleTime = Date.parse(new Date('2020-01-03 15:00'))
+    const now = Date.parse(new Date(moment().tz('Asia/Seoul').format()))
+    return now > scheduleTime
+  }
+
   const init = () => {
     createBannerBgImages()
     createSchedule()
+
+    if (isScheduleTime()) {
+      initModal()
+    }
   }
 
   return {
