@@ -1,3 +1,10 @@
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .body_wrapper {
     min-width: 320px !important;
 }
