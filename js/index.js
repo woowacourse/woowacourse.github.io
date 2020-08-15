@@ -119,6 +119,7 @@ const INDEX_APP = (() => {
   const init = () => {
     createBannerBgImages()
     createSchedule()
+    initModal()
   }
 
   return {
