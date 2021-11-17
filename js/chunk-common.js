@@ -419,7 +419,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"Dialog\",\n    { attrs: { width: 600, show: true } },\n    [\n      _c(\"template\", { slot: \"title\" }, [\n        _c(\"div\", { staticClass: \"w-100 text-center mt-8 font-weight-bold\" }, [\n          _vm._v(\"4기 서류 지원이 마감되었습니다.\")\n        ])\n      ]),\n      _c(\"template\", { slot: \"text\" }, [\n        _c(\n          \"div\",\n          { staticClass: \"mb-8 mt-3\" },\n          [\n            _c(\"v-img\", {\n              staticClass: \"mx-auto mb-4\",\n              attrs: {\n                width: \"300\",\n                src: __webpack_require__(/*! @/images/pages/main/online_programming.png */ \"./src/images/pages/main/online_programming.png\")\n              }\n            }),\n            _c(\n              \"div\",\n              { staticClass: \"body-1 text-left text-dark mt-4 px-4 lh-1-7\" },\n              [\n                _vm._v(\" 온라인 코딩 테스트는 \"),\n                _c(\n                  \"span\",\n                  { staticClass: \"text-bg-highlight font-weight-bold\" },\n                  [_vm._v(\"2021년 11월 6일 토요일 12시~16시\")]\n                ),\n                _vm._v(\"에 진행합니다. 문의사항 \"),\n                _c(\n                  \"v-btn\",\n                  {\n                    attrs: {\n                      href: \"//pf.kakao.com/_budWj\",\n                      target: \"_blank\",\n                      color: \"yellow darken-1\",\n                      depressed: \"\",\n                      rounded: \"\",\n                      small: \"\"\n                    }\n                  },\n                  [\n                    _c(\"v-icon\", { staticClass: \"mr-2 chat-icon\" }, [\n                      _vm._v(\"mdi-chat\")\n                    ]),\n                    _vm._v(\" 카카오톡채널\")\n                  ],\n                  1\n                ),\n                _vm._v(\" 로 문의 바랍니다. \")\n              ],\n              1\n            )\n          ],\n          1\n        )\n      ])\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/index/components/NotificationDialog.vue?./node_modules/cache-loader/dist/cjs.js?%7B%22cacheDirectory%22:%22node_modules/.cache/vue-loader%22,%22cacheIdentifier%22:%22e8962d82-vue-loader-template%22%7D!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"Dialog\",\n    { attrs: { width: 600, show: true } },\n    [\n      _c(\"template\", { slot: \"title\" }, [\n        _c(\"div\", { staticClass: \"w-100 text-center mt-8 font-weight-bold\" }, [\n          _vm._v(\"1차 합격자 발표 안내\")\n        ])\n      ]),\n      _c(\"template\", { slot: \"text\" }, [\n        _c(\n          \"div\",\n          { staticClass: \"mb-8 mt-3\" },\n          [\n            _c(\"v-img\", {\n              staticClass: \"mx-auto mb-4\",\n              attrs: {\n                width: \"300\",\n                src: __webpack_require__(/*! @/images/pages/main/image1.png */ \"./src/images/pages/main/image1.png\")\n              }\n            }),\n            _c(\n              \"div\",\n              { staticClass: \"body-1 text-dark mt-4 px-4 lh-1-7\" },\n              [\n                _vm._v(\" 1차 합격자 발표는 \"),\n                _c(\n                  \"span\",\n                  { staticClass: \"text-bg-highlight font-weight-bold\" },\n                  [_vm._v(\"11월 19일(금) 15시\")]\n                ),\n                _vm._v(\"에 안내될 예정입니다. \"),\n                _c(\"br\"),\n                _vm._v(\" 기타 문의사항 \"),\n                _c(\n                  \"v-btn\",\n                  {\n                    attrs: {\n                      href: \"//pf.kakao.com/_budWj\",\n                      target: \"_blank\",\n                      color: \"yellow darken-1\",\n                      depressed: \"\",\n                      rounded: \"\",\n                      small: \"\"\n                    }\n                  },\n                  [\n                    _c(\"v-icon\", { staticClass: \"mr-2 chat-icon\" }, [\n                      _vm._v(\"mdi-chat\")\n                    ]),\n                    _vm._v(\" 카카오톡채널\")\n                  ],\n                  1\n                ),\n                _vm._v(\" 로 문의 바랍니다. \")\n              ],\n              1\n            )\n          ],\n          1\n        )\n      ])\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/index/components/NotificationDialog.vue?./node_modules/cache-loader/dist/cjs.js?%7B%22cacheDirectory%22:%22node_modules/.cache/vue-loader%22,%22cacheIdentifier%22:%22e8962d82-vue-loader-template%22%7D!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -904,6 +904,17 @@ eval("module.exports = __webpack_require__.p + \"img/education_target_elements.8
 
 /***/ }),
 
+/***/ "./src/images/pages/main/image1.png":
+/*!******************************************!*\
+  !*** ./src/images/pages/main/image1.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/image1.fc23fd0a.png\";\n\n//# sourceURL=webpack:///./src/images/pages/main/image1.png?");
+
+/***/ }),
+
 /***/ "./src/images/pages/main/image2.png":
 /*!******************************************!*\
   !*** ./src/images/pages/main/image2.png ***!
@@ -923,17 +934,6 @@ eval("module.exports = __webpack_require__.p + \"img/image2.7ce4cfcb.png\";\n\n/
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/mission_cycle.1fdac0bd.png\";\n\n//# sourceURL=webpack:///./src/images/pages/main/mission_cycle.png?");
-
-/***/ }),
-
-/***/ "./src/images/pages/main/online_programming.png":
-/*!******************************************************!*\
-  !*** ./src/images/pages/main/online_programming.png ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"img/online_programming.db7bcf08.png\";\n\n//# sourceURL=webpack:///./src/images/pages/main/online_programming.png?");
 
 /***/ }),
 
